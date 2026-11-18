@@ -194,6 +194,37 @@ body {
   color: #555;
 }
 
+.kontakt {
+  max-width: 560px;
+  margin: 40px auto;
+  background: white;
+  border: 1px solid #34373a;
+  border-radius: 16px;
+  padding: 28px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.kontakt h2 {
+  margin-bottom: 12px;
+}
+
+.kontakt p {
+  margin-bottom: 12px;
+  color: #666;
+}
+
+.kontakt ul {
+  list-style: none;
+}
+
+.kontakt a {
+  color: #377efa;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
 footer {
   background: linear-gradient(135deg, #78acff, #377efa);
   background-size: 400% 400%;
