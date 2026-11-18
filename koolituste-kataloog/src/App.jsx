@@ -22,7 +22,10 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h2>Õppekeskus</h2>
+        <div className="header-brand">
+          <img src="/src/img/image.png" alt="Logo" />
+          <h2>Devik Õppekeskus</h2>
+        </div>
 
         <nav>
           <a href="#avaleht">Avaleht</a>
@@ -73,7 +76,7 @@ function App() {
       </main>
 
       <footer id="kontakt">
-        Õppekeskus - Kõik õigused on varastatud
+       &copy;2026 Devik Õppekeskus - Kõik õigused on varastatud
       </footer>
     </div>
   );
